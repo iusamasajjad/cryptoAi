@@ -147,10 +147,11 @@ body {
 }
 
 .invest-bg {
-    background-image: url('../images/invest-bg.png');
+    background-image: url('../images/invest-bg-2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 1400px;
 }
 
 .smart-bg {
@@ -163,7 +164,7 @@ body {
 
 .flex-bg {
     background-image: url('../images/flex-bg.png');
-    background-position: top bottom;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
