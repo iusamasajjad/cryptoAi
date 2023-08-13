@@ -82,7 +82,9 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
 }
-
+.hover-card:hover{
+    z-index: 999;
+}
 /* ================= animation-fade-in =========== */
 
 .reveal {
