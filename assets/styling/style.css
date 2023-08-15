@@ -98,7 +98,7 @@ body {
     background: #0BE5B6;
     filter: blur(150px);
     height: 418px;
-    width: 418px;
+    width: 80%;
     z-index: -1;
 }
 
@@ -108,7 +108,7 @@ body {
     background: #800080;
     filter: blur(122px);
     height: 418px;
-    width: 418px;
+    width: 80%;
     z-index: -1;
 }
 
