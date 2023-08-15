@@ -273,10 +273,12 @@
 
         <!-- ======================== Investement-section ====================== -->
 
-        <div>
+        <div >
             <div class="flex reveal justify-between flex-col-reverse lg:flex-row mt-28">
-                <div class="lg:w-3/5 lg:py-32 items-center flex justify-center">
-                    <div class="lg:w-2/3 px-5 lg:px-0">
+                <div class="lg:w-3/5 relative items-center flex justify-center">
+                    <div class="bg-blur-blue absolute right-0 top-0"></div>
+                    <div class="bg-blur-purple absolute left-0 bottom-0"></div>
+                    <div class="lg:w-2/3 px-5 lg:px-0 ">
                         <h1 class="font-bold text-center lg:text-start mt-5 text-3xl lg:text-5xl">Here's Why We’re the <br /> <span class="text-rgb">Best Choice
                                 for Your Investments</span></h1>
                         <div>
@@ -325,18 +327,23 @@
 
                     </div>
                 </div>
-                <div class="lg:w-5/12"> <img class="w-full" src="./assets/images/invest-bg-2.png" alt=""></div>
+                <div class="lg:w-5/12">
+                    <img class="lg:w-full w-3/5 mx-auto" src="./assets/images/invest-bg-2.png" alt="">
+                </div>
             </div>
         </div>
 
 
         <!-- ===================== balance-section ============================= -->
-        <div>
-            <div class="flex reveal flex-col lg:flex-row items-center lg:mt-28">
+        <div class="relative">
+            <div class="bg-blur-blue absolute right-0"></div>
+            <div class="bg-blur-purple absolute lg:left-28 bottom-0"></div>
+            <div class="flex reveal container mx-auto flex-col lg:flex-row items-center lg:mt-28">
                 <div class="lg:w-2/5 flex justify-center">
                     <img class="w-2/3" src="./assets/images/balance.png" alt="crypto-balance">
                 </div>
                 <div class="lg:w-1/2 text-center lg:text-start pt-5 lg:pt-0">
+                    
                     <p class="text-blue text-sm">The Team Behind CryptoAI12</p>
                     <h2 class="font-normal text-5xl">A Dozen Expert <span class="text-rgb">Crypto Investors</span> from
                         Around the Globe</h2>
@@ -365,12 +372,14 @@
 
         <!-- ======================= how-we-do-it ======================= -->
 
-        <div class="reveal">
+        <div class="reveal container relative mx-auto">
+            <div class="bg-blur-blue absolute top-0 right-0"></div>
+            <div class="bg-blur-purple absolute  left-0 bottom-0"></div>
             <div class="flex justify-center mt-5">
                 <h2 class="font-semibold text-4xl text-light-blue">Here's How We Do It:</h2>
             </div>
             <div class="flex flex-col lg:flex-row items-center">
-                <div class="lg:w-1/2">
+                <div class="lg:w-1/2 w-3/4">
                     <img src="./assets/images/ICO-1.png" alt="ICO">
                 </div>
                 <div class="lg:w-1/2 px-4 lg:px-0">
@@ -386,7 +395,7 @@
             <div class="flex justify-center">
                 <div class="hidden lg:block"><img src="./assets/images/arrow-in.png" alt=""></div>
             </div>
-            <div class="flex flex-col lg:flex-row items-center">
+            <div class="flex flex-col-reverse lg:flex-row items-center">
                 <div class="lg:w-1/2 px-4 lg:px-0 flex justify-center">
                     <div class="lg:w-2/3 mt-10 lg:mt-0">
                         <h2 class="font-normal lg:text-5xl text-3xl">AI Technology</h2>
@@ -396,7 +405,8 @@
                             informed investment choices.</p>
                     </div>
                 </div>
-                <div class="lg:w-1/2 relative">
+                <div class="lg:w-1/2 w-3/4 pt-5 lg:pt-0 relative">
+                    <div class="bg-blur-blue absolute right-0 top-0"></div>
                     <div class="absolute  left-[-245px] top-[-50px]"><img src="./assets/images/45-percentage.png"
                             alt=""></div>
                     <img src="./assets/images/technology.png" alt="ICO">
@@ -405,7 +415,8 @@
             <div class="flex justify-center">
                 <div class="hidden lg:block"><img src="./assets/images/arrow-out.png" alt=""></div>
             </div>
-            <div class="flex flex-col lg:flex-row items-center">
+            <div class="flex flex-col lg:flex-row relative items-center">
+                <div class="bg-blur-blue absolute top-0 left-0"></div>
                 <div class="lg:w-1/2 flex justify-center">
                     <img class="w-9/12" src="./assets/images/Usdt.png" alt="usdt">
                 </div>
@@ -423,9 +434,12 @@
 
         <!-- ====================== cost-calculator-section ======================= -->
 
-        <div class="flex flex-col reveal lg:flex-row justify-around items-center mt-28 relative">
-
+        <div class="flex flex-col reveal container mx-auto lg:flex-row justify-around items-center mt-28 relative">
+           
             <div class="lg:w-2/5 my-4">
+                <div class="relative">
+                    <div class="bg-blur-purple absolute"></div>
+                </div>
                 <div class="flex w-full justify-between">
                     <div class="flex z-20 hover-card lg:w-1/3 absolute top-28 mx-3 justify-center text-center">
                         <div class="cost-bg py-8 px-5">
@@ -436,8 +450,8 @@
                                     investment <br /> could
                                     earn you:</p>
                             </div>
-                            <p class="pt-3 text-sm">$39.45 Daily<br />
-                                $1,200 monthly<br />  $14,400 Annually (a remarkable 144%<br /> return on your
+                            <p class="pt-3 text-sm">Daily: $79.97 <br />
+                                 Monthly: $2,250<br />Yearly: $27,000<br />  $14,400 Annually (a remarkable 144%<br /> return on your
                                 investment)</p>
                         </div>
                     </div>
@@ -450,8 +464,9 @@
                             </div>
                             <p class="lg:text-sm text-xs font-semibold">Investment: $50 - $500</p>
                             <p class="pt-3 text-xs">Profit Percentage: 8% <br />
-                                Minimum earning monthly: $4 <br />
-                                Maximum earning monthly: $40</p>
+                                Daily: $1.32<br/>
+                                Monthly: $40 <br />
+                                Yearly: $480</p>
                         </div>
                     </div>
                     <div class="flex z-10 hover-card relative bottom-10 mx-3 justify-center text-center">
@@ -460,8 +475,9 @@
                             </div>
                             <p class="lg:text-sm text-xs font-semibold">Investment: $501 - $2,500</p>
                             <p class="pt-3 text-xs">Profit Percentage: 10% <br />
-                                Minimum earning monthly: $50.10<br />
-                                Maximum earning monthly: $250</p>
+                                Daily: $8.22<br/>
+                                Monthly: $250<br />
+                                Yearly: $3000</p>
                         </div>
                     </div>
                 </div>
@@ -472,18 +488,20 @@
                             </div>
                             <p class="lg:text-sm text-xs font-semibold">Investment: $2,501 - <br /> $10,000</p>
                             <p class="pt-3 text-xs">Profit Percentage: 12%<br />
-                                Minimum earning monthly: $300.12<br />
-                                Maximum earning monthly: $1200</p>
+                                Daily: $39.45<br/>
+                                Monthly: $1200<br />
+                                Yearly: $14,400</p>
                         </div>
                     </div>
-                    <div class="flex mx-3 hover-card justify-center text-center">
+                    <div class="flex mx-3 hover-card px-4 justify-center text-center">
                         <div class="cost-bg py-4 px-8">
                             <div class="flex justify-center pb-6"><img src="./assets/images/invest-4.png" alt="invest">
                             </div>
-                            <p class="lg:text-sm text-xs font-semibold">Investment: $2,501 - <br />$10,000</p>
-                            <p class="pt-3 text-xs">Profit Percentage: 15% (Highest)<br />
-                                Minimum earning monthly: $1500.15<br />
-                                Maximum earning monthly: $2,250</p>
+                            <p class="lg:text-sm text-xs font-semibold">Investment: $2,501 - <br /> $10,000</p>
+                            <p class="pt-3 text-xs">Profit Percentage: 12%<br />
+                                Daily: $39.45<br/>
+                                Monthly: $1200<br />
+                                Yearly: $14,400</p>
                         </div>
                     </div>
                 </div>
@@ -598,7 +616,7 @@
         <!-- ====================== flexible-investement ====================== -->
 
         <div>
-            <div class="flex-bg reveal flex flex-col items-center lg:items-start lg:flex-row container mx-auto">
+            <div class="flex-bg reveal flex flex-col-reverse items-center lg:items-start lg:flex-row container mx-auto">
                 <div class="px-5 flex pt-16 py-8 lg:w-3/4">
                     <div>
                         <h2 class="text-6xl font-semibold text-white">Flexible Investment Options</h2>
@@ -629,7 +647,8 @@
 
         <!-- ======================== Seamless-cryptocurrency-section ================= -->
 
-        <div>
+        <div class="relative">
+            <div class="bg-blur-purple absolute right-0 top-0"></div>
             <div class="flex reveal px-5 lg:px-0 flex-col lg:flex-row items-center container mx-auto mt-28">
                 <div>
                     <h2 class="text-3xl mt-5 font-semibold text-black">Seamlessly Navigate the Volatile
@@ -691,7 +710,7 @@
 
         <!-- ==================== Register-section ======================= -->
         <div>
-            <div class="bg-black container mx-auto flex flex-col lg:flex-row rounded-3xl">
+            <div class="bg-black container mx-auto flex flex-col-reverse lg:flex-row rounded-3xl">
                 <div class="flex text-center reveal lg:text-start pt-16 py-4 lg:w-3/4">
                     <div class="lg:ml-12">
                         <h2 class="lg:text-6xl text-2xl font-semibold text-white">Register Now to Get Started Experience
@@ -718,7 +737,7 @@
                 <div class="flex w-full justify-center items-center">
                     <div class="lg:w-1/2 px-5 lg:px-0">
                         <div>
-                            <h2 class="text-6xl lg:w-4/5 font-semibold text-black">30-Day Full <span class="text-rgb">Refund</span> – Risk-Free Guarantee
+                            <h2 class="lg:text-6xl text-3xl lg:w-4/5 font-semibold text-black">30-Day Full <span class="text-rgb">Refund</span> – <br/> Risk-Free Guarantee
                             </h2>
                         </div>
                         <div>

@@ -70,7 +70,7 @@ body {
     background: #800080;
 }
 
-.overlay{
+.overlay {
     position: fixed;
     height: 100%;
     left: 0;
@@ -82,9 +82,31 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
 }
-.hover-card:hover{
+
+.hover-card:hover {
     z-index: 999;
 }
+
+.bg-blur-blue {
+    opacity: 0.1;
+    border-radius: 418px;
+    background: #0BE5B6;
+    filter: blur(22px);
+    height: 418px;
+    width: 418px;
+    z-index: -1;
+}
+
+.bg-blur-purple {
+    border-radius: 424px;
+    opacity: 0.1;
+    background: #800080;
+    filter: blur(122px);
+    height: 418px;
+    width: 418px;
+    z-index: -1;
+}
+
 /* ================= animation-fade-in =========== */
 
 .reveal {
@@ -98,44 +120,49 @@ body {
     transform: translateY(0);
     opacity: 1;
 }
+
 /* ================== logos-carousel =============== */
 .slider-main {
     overflow: hidden;
+
     .slider {
-      animation: slidein 15s linear infinite;
-      white-space: nowrap;
-      .logos {
-        width: 100%;
-        display: inline-block;
+        animation: slidein 15s linear infinite;
         white-space: nowrap;
-        margin: 0px 0;
-        .fab {
-          width: calc(100% / 5);
-          animation: fade-in 0.5s 
-            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+
+        .logos {
+            width: 100%;
+            display: inline-block;
+            white-space: nowrap;
+            margin: 0px 0;
+
+            .fab {
+                width: calc(100% / 5);
+                animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+            }
         }
-      }
     }
-  }
-  
-  @keyframes slidein {
+}
+
+@keyframes slidein {
     from {
-      transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
+
     to {
-      transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
     }
-  }
-  
-  @keyframes fade-in {
+}
+
+@keyframes fade-in {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
+}
+
 /* ============ background-images ============= */
 
 .hero-bg {
@@ -159,6 +186,7 @@ body {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 61.344px;
     min-height: 550px;
 }
 
@@ -168,14 +196,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.getReadyBg{
+
+.getReadyBg {
     background-image: url('../images/Get-Ready.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 700px;
 }
-.footer-bg{
+
+.footer-bg {
     background-image: url('../images/footer-bg.png');
     background-position: center;
     background-size: cover;
