@@ -136,7 +136,7 @@ body {
             margin: 0px 0;
 
             .fab {
-                width: calc(100% / 5);
+                width: calc(100% / 8);
                 animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
             }
         }
@@ -166,7 +166,7 @@ body {
 /* ============ background-images ============= */
 
 .hero-bg {
-    background-image: url('../images/color-bg.png');
+    background-image: url('../images/color-bg-2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
