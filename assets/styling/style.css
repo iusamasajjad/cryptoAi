@@ -182,7 +182,7 @@ body {
 }
 
 .smart-bg {
-    background-image: url('../images/smart-bg.png');
+    background-image: url('../images/smart-bg-2.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 720px;
 }
 
 .footer-bg {
