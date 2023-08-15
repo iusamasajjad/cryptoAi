@@ -91,7 +91,7 @@ body {
     opacity: 0.1;
     border-radius: 418px;
     background: #0BE5B6;
-    filter: blur(22px);
+    filter: blur(150px);
     height: 418px;
     width: 418px;
     z-index: -1;
