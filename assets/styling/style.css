@@ -83,7 +83,7 @@ body {
     bottom: 0;
     width: 0%;
     z-index: 1;
-    background-color: #FF6600;
+    background-color: #800080;
     overflow-x: hidden;
     transition: 0.5s;
 }
