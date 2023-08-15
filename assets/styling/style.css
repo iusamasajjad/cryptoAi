@@ -61,7 +61,7 @@ body {
 .cost-bg:hover{
     transform: scale(1.2);
     transition: .5s;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .cost-calBg {
